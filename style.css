@@ -1,0 +1,91 @@
+body {
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+    margin: 0;
+}
+
+/* HEADER */
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+/* TOP SECTION */
+.top-box {
+    text-align: center;
+}
+
+/* BUTTON */
+button {
+    background: #3b82f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2563eb;
+}
+
+/* TABLE */
+.main-table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: #1e293b;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* HEADER ROW */
+.main-table th {
+    background: #3b82f6;
+    padding: 12px;
+}
+
+/* DATA */
+.main-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* HOVER EFFECT */
+.main-table tr:hover {
+    background: #334155;
+}
+
+/* LINKS */
+a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+/* 🔥 ROW ANIMATION */
+.row-animate {
+    animation: slideIn 0.4s ease;
+}
+
+/* TABLE FADE */
+.main-table {
+    animation: fadeIn 0.6s ease;
+}
+
+/* KEYFRAMES */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
